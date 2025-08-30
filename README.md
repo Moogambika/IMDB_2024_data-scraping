@@ -84,15 +84,22 @@ Ratings by Genre (Heatmap)
 Ratings vs Votes (Correlation analysis)
 
 📂 Project Structure
-📦 imdb-2024-analysis
- ┣ 📂 data/                # Scraped CSVs (Action.csv, Comedy.csv, etc.)
- ┣ 📂 analysis/            # Analysis scripts & plots
- ┣ 📜 scraper.py           # Selenium web scraper
- ┣ 📜 save_to_sql.py       # Upload CSVs to TiDB Cloud
- ┣ 📜 sql.ipynb            # SQL queries demo
- ┣ 📜 eda.ipynb            # Exploratory Data Analysis
- ┣ 📜 streamlit_app.py     # Streamlit dashboard
- ┣ 📜 README.md            # Project documentation
+
+data/ → Contains all scraped CSVs (Action.csv, Comedy.csv, Thriller.csv, etc.)
+
+analysis/ → Python scripts & saved plots for analysis
+
+scraper.py → Web scraping script (Selenium) to collect IMDb 2024 movies
+
+save_to_sql.py → Python script to upload cleaned data into TiDB Cloud
+
+sql.ipynb → Jupyter Notebook with SQL queries & results from TiDB Cloud
+
+eda.ipynb → Jupyter Notebook for Exploratory Data Analysis (EDA)
+
+streamlit_app.py → Streamlit dashboard for visualizations & insights
+
+README.md → Documentation for the entire project
 
 🛠️ Tech Stack
 
