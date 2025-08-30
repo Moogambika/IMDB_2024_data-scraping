@@ -3,7 +3,10 @@ webdriver-manager
 pandas
 numpy
 matplotlib
+Seaborn
+Plotly
 sqlalchemy
 mysql-connector-python
 streamlit
-Plotly
+
+
