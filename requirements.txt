@@ -1,0 +1,8 @@
+selenium
+webdriver-manager
+pandas
+numpy
+matplotlib
+sqlalchemy
+mysql-connector-python
+streamlit
