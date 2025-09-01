@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.express as px
 from sqlalchemy import create_engine
 import plotly.graph_objects as go
-import plotly.express as px
 import pymysql
 
 # ------------------------
@@ -231,4 +230,5 @@ elif page == "Filters":
 elif page == "Data Preview":
     st.title("📑 Data Preview")
     st.dataframe(df.head(50), use_container_width=True)
+
 
